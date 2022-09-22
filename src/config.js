@@ -1,2 +1,2 @@
-const API_URL = "http://keypumps.ru:3000/";
+const API_URL = "http://keypumps.ru/";
 module.exports = {API_URL}
