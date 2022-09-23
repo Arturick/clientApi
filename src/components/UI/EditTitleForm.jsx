@@ -27,7 +27,7 @@ const EditTitleForm = ({ currentPost, postType }) => {
         break;
     }
 
-    window.location.reload();
+    setTimeout(() => {window.location.reload();}, 5000)
   }
 
   return (
