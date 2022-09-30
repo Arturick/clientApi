@@ -27,6 +27,9 @@ const ProductDetails = () => {
     const newDetail = { key: detailName, value: detailValue };
 
     setDetails(() => [...details, newDetail]);
+     setTimeout(() => {
+      window.location.refresh();
+    }, 3500)
   };
 
   return (
